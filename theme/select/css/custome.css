@@ -1,0 +1,42 @@
+.set_after_img{
+    background-image: url(../img/info.png);
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+    z-index: 100;
+}
+
+#show_tool_tip {
+    width: 500px;
+    float: right;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100000;
+}
+
+.set_tooltip_main_div {
+    position: absolute !important;
+    bottom: 40px !important;
+}
+
+.set_tooltip_w {
+    width: 500px !important;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+
+.set_tooltip_arr {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    right: 160px;
+}
